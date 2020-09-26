@@ -35,7 +35,7 @@ def long_planeteer_calls(planeteer_calls)
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  planeteer_calls.any? do |element|  
- match find_valid_calls (planeteer_calls)
+ find_valid_calls.match? (planeteer_calls)
  Return element
 end 
 end 
